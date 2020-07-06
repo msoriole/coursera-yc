@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*large device only*/
+@media (min-width: 992px) {
+	#box1, #box2, #box3 {
+		width: 33.3%;
+		float: left;
+		padding: 10px 10px 10px 10px;
+	}
+	#box1 {
+		padding-left: 20px; 
+	}
+	#box3 {
+		padding-right: 20px;
+	}
+}
+
+/*tablet view*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#box1, #box2, #box3 {
+		padding: 10px 10px 10px 10px;
+	}
+	#box1, #box2 {
+		width: 50%;
+		float: left;
+		
+	}
+	#box3 {
+		width: 100%;
+		clear: left;
+	}
+	#box1, #box3 {
+		padding-left: 20px;
+	}
+	#box2, #box3 {
+		padding-right: 20px;
+	}
+
+}
+
+/*mobile view*/
+@media (max-width: 767px) {
+	#box1, #box2, #box3 {
+		width: 100%;
+		padding: 10px 20px;
+	}
+}
+
+
+div>div {
+	border: 1px solid black;
+	height: 350px;
+		/*overflow: auto;*/
+}
+
+
+h1 {
+	font-size: 35px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px 
+}
+
+p {
+	font-size: 20px;
+	clear: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px; 
+}
+
+p.title {
+	width: 100px;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 25px;
+	float: right;
+	padding: 10px;
+	
+}
+
+#Section1 .title {
+	background-color: pink;
+}
+#Section2 .title {
+	background-color: #2a91f3;
+}
+#Section3 .title {
+	background-color: white;
+}
+
+
+
+#Section1 {
+	background-color: #f95f5b;
+	font-size: 16px;
+
+}
+#Section2 {
+	background-color: #fdbc40;
+
+}
+#Section3 {
+	background-color: #0e6c11;
+
+}
+
+
+
